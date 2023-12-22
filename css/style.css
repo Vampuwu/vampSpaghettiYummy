@@ -19,14 +19,14 @@
     
 }
 .navbar li {
-    padding: 10px;
-    margin: 5px;
+    padding: 1em;
+    margin: 0.5em;
 }
 .navbar a {
     text-decoration: none;
     color: aqua;
     text-shadow: 2px 1px rgba(255, 255, 0, 0.356);
-    font-size: 30px;
+    font-size: 2em;
     font-family: cursive;   
 }
 .navbar li {
@@ -79,3 +79,42 @@
     content: 'I dont my head hurt';
    }
 
+.middle {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 4em;
+    border-style: groove;
+    padding-bottom: 4em;
+    background-size: 2000px;
+    background-image: url(../img/gradientgrid.jpg)
+    
+    
+}
+.middle-img {
+    text-align: center;
+    padding-bottom: 4em;
+    background: linear-gradient(to right, purple, rgb(88, 11, 88));
+    border-radius: 10px;
+    padding: 2em;
+    border-style: groove;
+}
+
+.middle-img p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2em;
+    color: whitesmoke;
+}
+
+.middle-img {
+
+        transition: transform .2s; 
+       }
+       
+.middle-img:hover {
+        transform: scale(1.2); 
+       }
+
+.imglink {
+    text-decoration: none;
+}
