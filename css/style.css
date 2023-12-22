@@ -27,8 +27,15 @@
     color: aqua;
     text-shadow: 2px 1px rgba(255, 255, 0, 0.356);
     font-size: 30px;
-    font-family: cursive;
+    font-family: cursive;   
 }
+.navbar li {
+    transition: transform .2s; 
+   }
+   
+.navbar li:hover {
+    transform: scale(1.2); 
+   }
 
 .heroflex {
     background-color: #301934;
