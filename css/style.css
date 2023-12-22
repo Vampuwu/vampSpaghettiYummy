@@ -59,3 +59,22 @@
     font-size: 20px;
 }
 
+.emojiimg {
+
+    transition: transform .7s ease-in-out;
+}
+.emojiimg:hover {
+    transform: rotate(360deg);
+   }
+
+.heroh1 {
+        position: relative;
+}
+
+.heroh1::before {
+    content: 'I know the Computers!1!';
+   }
+   
+   .heroh1:hover::before {
+    content: 'I dont my head hurt';
+   }
