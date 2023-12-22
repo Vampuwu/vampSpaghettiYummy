@@ -1,0 +1,54 @@
+
+.header {
+    background: linear-gradient(to right, purple, rgb(88, 11, 88));
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: groove;
+    border-left: groove;
+    border-right: groove;
+    border-bottom: dotted;
+    border-color: plum;
+}
+
+.navbar {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.navbar li {
+    padding: 10px;
+    margin: 5px;
+}
+.navbar a {
+    text-decoration: none;
+    color: aqua;
+    text-shadow: 2px 1px rgba(255, 255, 0, 0.356);
+    font-size: 30px;
+    font-family: cursive;
+}
+
+.heroflex {
+    background-color: #301934;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-left: groove;
+    border-right: groove;
+    border-bottom: groove;
+    padding-bottom: 20px;
+    
+}
+.herotext {
+    font-size: 60px;
+    color: aqua;
+    text-shadow: 2px 1px rgba(255, 255, 0, 0.356);
+    flex-direction: column;
+}
+.herotext p {
+    font-size: 20px;
+}
+
